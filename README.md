@@ -2,6 +2,10 @@
 
 A CRUD-based pet adoption platform built with React, Next.js, and Tailwind CSS. The platform allows shelters to create and manage their accounts and list pets for adoption, with all CRUD operations available for both shelters and pets.
 
+## Members
+1. Lythean Sem [Project Repository](https://github.com/LytheanSem?tab=repositories)
+2. Myat Shoon Lei [Project Repository](https://github.com/myatshoonlei?tab=repositories)
+
 ## Features
 
 - Shelter Account Management: Register, view, update, and delete shelter accounts.
@@ -41,6 +45,4 @@ Manage Shelter
 Home
 <img width="1407" alt="Home" src="https://github.com/user-attachments/assets/960bc70c-ef14-4155-8256-ac84027303ea">
 
-## Members
-1. Lythean Sem [Project Repository](https://github.com/LytheanSem?tab=repositories)
-2. Myat Shoon Lei [Project Repository](https://github.com/myatshoonlei?tab=repositories)
+
