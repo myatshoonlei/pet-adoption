@@ -2,7 +2,7 @@ import EditPetForm from "@/components/EditPetForm";
 
 const getPetById = async (id) => {
   try {
-    const res = await fetch(`http://localhost:3000/api/pets/${id}`, {
+    const res = await fetch(`/api/pets/${id}`, {
       cache: "no-store",
     });
 

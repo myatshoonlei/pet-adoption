@@ -23,7 +23,7 @@ export default function EditPetForm({ id, name, breed, description, status }) {
     e.preventDefault();
 
     try {
-      const res = await fetch(`http://localhost:3000/api/pets/${id}`, {
+      const res = await fetch(`/api/pets/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

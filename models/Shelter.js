@@ -9,6 +9,7 @@ const shelterSchema = new Schema({
 });
 
 mongoose.deleteModel(/^(?!.*__repl).*/); // Use this before defining the model
-const Shelter = mongoose.models.Shelter || mongoose.model("Shelter", shelterSchema);
+const Shelter =
+  mongoose.models.Shelter || mongoose.model("Shelter", shelterSchema);
 
 export default Shelter;

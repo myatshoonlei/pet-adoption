@@ -12,7 +12,7 @@ export default function RemoveBtn({ id }) {
     if (confirmed) {
       try {
         // Send the DELETE request to the correct API endpoint
-        const res = await fetch(`http://localhost:3000/api/pets/${id}`, {
+        const res = await fetch(`/api/pets/${id}`, {
           method: "DELETE", // Use DELETE method
         });
 

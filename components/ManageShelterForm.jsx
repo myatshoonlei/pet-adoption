@@ -21,7 +21,7 @@ export default function ManageShelterForm({ id, name, email, phoneNumber, city }
     e.preventDefault();
 
     try {
-      const res = await fetch(`http://localhost:3000/api/shelters/${id}`, {
+      const res = await fetch(`/api/shelters/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -55,7 +55,7 @@ export default function ManageShelterForm({ id, name, email, phoneNumber, city }
     if (!confirmDelete) return;
 
     try {
-      const res = await fetch(`http://localhost:3000/api/shelters/${id}`, {
+      const res = await fetch(`/api/shelters/${id}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",

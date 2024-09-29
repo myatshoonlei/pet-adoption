@@ -2,7 +2,7 @@ import ManageShelterForm from "@/components/ManageShelterForm";
 
 const getShelterById = async (id) => {
   try {
-    const res = await fetch(`http://localhost:3000/api/shelters/${id}`, {
+    const res = await fetch(`/api/shelters/${id}`, {
       cache: "no-store",
     });
 
